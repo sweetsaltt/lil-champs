@@ -17,3 +17,10 @@ https://chris-darren-lilchamps.pbp.cs.ui.ac.id/
 5. Menurut saya, framework Django cocok untuk belajar sebagai beginner karena Django sendiri berjalan di atas Python. Python sendiri memiliki struktur dan sintaks layaknya seperti berbahasa inggris biasa sehingga familiar untuk dipelajari. Selain itu, Django sendiri telah didevelop dan mempunyai resource dan fasilitas yang mumpuni untuk pembelajaran.
 
 6. Saya sendiri tidak menemukan masalah atau issue dalam pengerjaan tutorial. Mungkin sedikit pesan dari saya untuk teman-teman asdos untuk terus semangat dan mohon bimbingannya selama satu semester ini belajar PBP.
+
+#
+Tugas 3 PBP
+
+1. Data delivery atau pengiriman data dari satu titik ke titik lain, seperti dari client - browser atau sistem ke sistem lain, sangatlah penting diimplementasikan dalam sebuah platform. Kita memerlukan data delivery untuk menjaga integrasi sistem agar berfungsi dengan baik, memastikan kita sebagai pengguna memiliki data yang relevan dan terbaru, serta membantu kita untuk upscale dan eskalasi platform agar semakin cepat dan efisien sehingga bermanfaat untuk kebutuhan kita.
+
+2. JSON dan XML mempunyai kelebihan dan kekurangannya masing-masing. Di satu sisi, JSON lebih popular untuk kalangan umum karena sifatnya yang lightweight dan ringan, lebih mudah untuk dibaca dan dimengerti, cepat dan mudah diparsing, serta memiliki dukungan yang luas dan langsung terintegrasi dengan JavaScript sehingga pengembangannya lebih baik. Sedangkan untuk XML unggul dalam mengatasi dokumen yang lebih kompleks dan validasi yang lebih ketat.
