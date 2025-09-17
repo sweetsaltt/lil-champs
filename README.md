@@ -24,3 +24,7 @@ Tugas 3 PBP
 1. Data delivery atau pengiriman data dari satu titik ke titik lain, seperti dari client - browser atau sistem ke sistem lain, sangatlah penting diimplementasikan dalam sebuah platform. Kita memerlukan data delivery untuk menjaga integrasi sistem agar berfungsi dengan baik, memastikan kita sebagai pengguna memiliki data yang relevan dan terbaru, serta membantu kita untuk upscale dan eskalasi platform agar semakin cepat dan efisien sehingga bermanfaat untuk kebutuhan kita.
 
 2. JSON dan XML mempunyai kelebihan dan kekurangannya masing-masing. Di satu sisi, JSON lebih popular untuk kalangan umum karena sifatnya yang lightweight dan ringan, lebih mudah untuk dibaca dan dimengerti, cepat dan mudah diparsing, serta memiliki dukungan yang luas dan langsung terintegrasi dengan JavaScript sehingga pengembangannya lebih baik. Sedangkan untuk XML unggul dalam mengatasi dokumen yang lebih kompleks dan validasi yang lebih ketat.
+
+3. Fungsi is_valid() digunakan untuk membersihkan input atau data yang masuk dan kemudian dilakukan validasi pemeriksaan apakah sesuai atau memenuhi syarat dari form yang kita buat. Kita membutuhkannya untuk menjaga keamanan dengan mencegah masuknya data yang berbahaya, menjaga integritas data agar tetap tersimpan, serta menjaga pengalaman pengguna.
+
+4. 
