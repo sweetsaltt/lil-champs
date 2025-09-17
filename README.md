@@ -27,4 +27,13 @@ Tugas 3 PBP
 
 3. Fungsi is_valid() digunakan untuk membersihkan input atau data yang masuk dan kemudian dilakukan validasi pemeriksaan apakah sesuai atau memenuhi syarat dari form yang kita buat. Kita membutuhkannya untuk menjaga keamanan dengan mencegah masuknya data yang berbahaya, menjaga integritas data agar tetap tersimpan, serta menjaga pengalaman pengguna.
 
-4. 
+4. Kita membutuhkan CSRF token untuk menghindari CSRF itu sendiri. CSRF token berfungsi untuk melindungi dari serangan Cross-Site Request Forgery (CSRF). CSRF adalah serangan siber yang memanfaatkan pengguna yang telah divalidasi kebenarannya untuk melakukan suatu tindakan di sebuah website lain tanpa sepengetahuan pengguna.Kehadian csrf_token memberikan keamanan karena Django akan memverifikasi apakah token yang dikirimkan sesuai dengan token yang tersimpan di server sehingga permintaan sah apabila match. Jika kita tidak mengimplementasi csrf_token, kita akan rentan terhadap serangan CSRF dan penyerang dapat memanfaatkan kerugian yang mengatasnamakan kita. Contohnya, seseorang login ke website internet banking sehingga browser menyimpan kredensial dalam cookie sesi. Dalam waktu yang bersamaan, beliau juga mengakses website lain yang dibuat oleh oknum penyerang. Website yang disisipi kode berbahaya tersebut secara otomatis melakukan request POST ke website banking tersebut seperti transfer/tarik tunai. Nah, karena browser korban masih menyimpan sesi login tersebut, server bank menganggap bahwa permintaan tersebut valid dan menyetujui sehingga transaksi pun berhasil tanpa sepengetahuan korban.
+
+5. Implementasi checklist pada tugas 3 kali ini saya lakukan dari pembuatan form yang kemudian dilanjutkan dengan membuat function-function pendukung pada views.py. Tak lupa saya juga sambungkan path nya di urls agar hal yang ingin diakses memiliki tampilan dan destinasi yang sesuai. Setelah mempersiapkan logic nya, saya mulai eksekusi dan handle bagian tampilan html nya. Menurut saya, bagian ini adalah yang paling challenging karena saya harus menghubungkan antara apa yang saya ingin tampilkan di web dapat bekerja sesuai program yang dibuat. Setelah selesai, kemudian saya tambahkan beberapa method data delivery dalam bentuk XML dan JSON. Saya juga pastikan agar function dapat bekerja dengan baik.
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/bd08fd09-3cb6-4954-87f8-b040c5ae62e5" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/61f4f0d3-1de5-4fe7-a00d-15527e4c6a01" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/c35e3f3f-7cf6-498e-9083-e929f02c751b" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/6bbc0855-8f14-49f0-8c18-6f08ef0b50ab" />
+
+
