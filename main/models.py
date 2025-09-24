@@ -1,7 +1,10 @@
 from django.db import models
 import uuid
 
+from django.contrib.auth.models import User
+
 class Product(models.Model):    
+    user = models.ForeignKey(User, on_delete=models.CASCADE, null=True)
     CATEGORY_CHOICES = [
         ('tops_and_tshirts', "Tops and T-Shirts"),
         ('polo_and_shirts', "Polo and Shirts"),
