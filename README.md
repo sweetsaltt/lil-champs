@@ -36,4 +36,13 @@ Tugas 3 PBP
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/c35e3f3f-7cf6-498e-9083-e929f02c751b" />
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/6bbc0855-8f14-49f0-8c18-6f08ef0b50ab" />
 
+#
+Tugas 4 PBP
 
+1. AuthenticationForm adalah form bawaan Django yang digunakan untuk melakukan autentikasi pengguna. Form ini menangani proses login dengan memverifikasi kredensial yang dimasukkan pengguna kemudian diproses apakah sesuai dan benar. AuthenticationForm ini telah terintegrasi dengan sistem Django sehingga validasi dilakukan otomatis, mempunyai keamanan bawaan sistem, dan mudah untuk dipakai pengguna sesuai kebutuhan. Namun, kustomisasinya cukup kompleks dan tampilannya sederhana sehingga kurang menarik.
+
+2. Autentikasi adalah proses verifikasi identitas atau penentuan apakah pengguna tersebut exist. Proses ini seperti login dengan username dan password dan dihandle dengan AuthenticationForm. Sedangkan, autorisasi adalah proses menentukan hak akses si pengguna tersebut, apa yang boleh dilakukan atau batasan yang dimiliki. Implementasinya seperti dengan menentukan properti dekorator @login_required untuk mengizinkan pengguna memiliki akses melihat main asalkan seseorang tersebut login dahulu.
+
+3. Session sendiri lebih aman karena data disimpan di server, mempunyai kapasitas yang lebih besar sehingga mampu menyimpan data yang lebih kompleks, serta terenkripsi. Kekurangannya, session jadi lebih berat untuk dihandle server dan lebih sulit untuk scale-up. Sedangkan, cookie ringan dan mudah untuk diimplementasi, namun keamanannya cukup rawan dan banyak dimanfaatkan untuk kejahatan siber.
+
+4. Pada tugas ini, saya mengimplementasi proses autentikasi dengan membuat logic di views, kemudian saya routing ke urls, dan buat template html agar hasil olahan autentikasi dapat direpresentasikan ke pengguna. Selain itu, saya juga lakukan untuk implementasi cookie dengan memanfaatkan last_login. Dan pada akhirmya, saya bisa membedakan setiap dari pada user punya autorisasi hak nya masing-masing sesuai postingan yang dibuat
