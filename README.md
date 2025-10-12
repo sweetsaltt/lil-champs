@@ -46,3 +46,13 @@ Tugas 4 PBP
 3. Session sendiri lebih aman karena data disimpan di server, mempunyai kapasitas yang lebih besar sehingga mampu menyimpan data yang lebih kompleks, serta terenkripsi. Kekurangannya, session jadi lebih berat untuk dihandle server dan lebih sulit untuk scale-up. Sedangkan, cookie ringan dan mudah untuk diimplementasi, namun keamanannya cukup rawan dan banyak dimanfaatkan untuk kejahatan siber.
 
 4. Pada tugas ini, saya mengimplementasi proses autentikasi dengan membuat logic di views, kemudian saya routing ke urls, dan buat template html agar hasil olahan autentikasi dapat direpresentasikan ke pengguna. Selain itu, saya juga lakukan untuk implementasi cookie dengan memanfaatkan last_login. Dan pada akhirmya, saya bisa membedakan setiap dari pada user punya autorisasi hak nya masing-masing sesuai postingan yang dibuat
+
+#
+Tugas 5
+1. Urutan prioritas CSS selector dimulai dari yang tertinggi hingga terendah. Posisi tertinggi ditempati oleh ID selector, yang memiliki kekuatan spesifisitas paling kuat karena menargetkan elemen secara unik berdasarkan atribut ID. Selanjutnya terdapat class selector, yang meskipun dapat diterapkan pada multiple elemen, tetap memiliki prioritas lebih tinggi daripada element selector. Posisi terendah dalam hierarki ini adalah element selector, yang hanya menargetkan elemen berdasarkan nama tag HTML dan memiliki spesifisitas paling lemah.
+
+2. Responsive design merupakan konsep penting dalam pengembangan web karena memastikan tampilan website dapat beradaptasi optimal di berbagai perangkat dan ukuran layar. Dengan maraknya penggunaan perangkat mobile, responsive design menjadi krusial untuk memberikan pengalaman pengguna yang konsisten dan memenuhi standar SEO modern. Contoh aplikasi yang telah menerapkan responsive design dengan baik adalah Tokopedia dan Netflix.
+
+3. Margin, border, dan padding adalah tiga komponen fundamental dalam CSS box model. Padding merupakan ruang internal antara konten elemen dengan border, border adalah garis batas yang mengelilingi padding dan konten, sedangkan margin adalah ruang eksternal yang memisahkan elemen dengan elemen lain di sekitarnya. Implementasinya menggunakan properti CSS seperti padding: 10px; border: 1px solid black; margin: 20px;
+
+4. Flexbox dan grid layout merupakan sistem tata letak CSS. Flexbox dirancang untuk tata letak satu dimensi yang mengatur elemen dalam garis lurus (baik horizontal maupun vertical) dan ideal untuk komponen kecil seperti navigasi bar. Sementara grid layout merupakan sistem dua dimensi yang mengatur elemen dalam baris dan kolom secara bersamaan dan cocok untuk tata letak halaman yang kompleks seperti layout website lengkap dengan header, sidebar, dan main content.
